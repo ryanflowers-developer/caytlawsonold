@@ -33,47 +33,48 @@
 <body>
 
 
-    <!--Socials-->
-    <div class="fluid-container">
-    </div>
-    <div class="list-group-horizontal float-right" id="social-icons">
-        <a href="https://www.facebook.com/CaytLawson/" target="blank"><i id="social-links"
-                class="fab fa-facebook"></i></a>
-        <a href="https://twitter.com/caytlawson" target="blank"><i id="social-links" class="fab fa-twitter"></i></a>
-        <a href="https://www.instagram.com/caytlawson/" target="blank"><i id="social-links"
-                class="fab fa-instagram"></i></a>
-        <a href="https://www.goodreads.com/author/show/18144598.Cayt_Lawson" target="blank"><i id="social-links"
-                class="fab fa-goodreads-g"></i></a>
-    </div>
 
     <!--Shell Div-->
-    <div class="fluid-container mx-auto col-lg-8 col-md-9 col-sm-12 col-xs-12" id="shell-content">
+    <div class="col-sm-12 col-md-10 col-lg-9 mx-auto" id="shell-content">
         <header>
+            <div class="list-group-horizontal text-right id=" social-icons">
+                <a href="https://www.facebook.com/CaytLawson/" target="blank"><i id="social-links"
+                        class="fab fa-facebook"></i></a>
+                <a href="https://twitter.com/caytlawson" target="blank"><i id="social-links"
+                        class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/caytlawson/" target="blank"><i id="social-links"
+                        class="fab fa-instagram"></i></a>
+                <a href="https://www.goodreads.com/author/show/18144598.Cayt_Lawson" target="blank"><i id="social-links"
+                        class="fab fa-goodreads-g"></i></a>
+            </div>
             <h1 class="text-center">Cayt Lawson</h1>
             <h2 class="text-center">Historical Romance Author</h2>
         </header>
-        <nav class="navbar navbar-collapse-sm navbar-expand-lg">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span> 
+        <!--Socials-->
+
+        <nav class="navbar navbar-light navbar-collapse-lg navbar-expand-lg">
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse"
+                data-target="#navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
+                <ul class="navbar-nav mx-auto col-lg-6">
+                    <li class="nav-item active mx-auto">
                         <a href="index.html" class="nav-link"><i class="fas fa-home"></i></a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item mx-auto">
                         <a href="books.html" class="nav-link">Books</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item mx-auto">
                         <a href="author.html" class="nav-link">Author</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item mx-auto">
                         <a href="faq.html" class="nav-link">FAQ</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item mx-auto">
                         <a href="events.html" class="nav-link">Events</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item mx-auto">
                         <a href="newsletter.html" class="nav-link">Newsletter</a>
                     </li>
                 </ul>
@@ -82,28 +83,37 @@
 
         <!--Main Content Div-->
         <div id="main-content">
+
             <div class="row">
-                <div class="col-lg-9">
+                <div class="col-lg-8">
                     <div>
                         <img class="img-fluid d-block mx-auto w-100" src="images/promo-device.jpg" id="promo-image"
                             alt="Ann's Valley Promo Image" />
                     </div>
-                    <div class="list-group-horizontal text-center" id="links">
+
+                    <div class="d-none d-lg-block  list-group text-center d-md-none links">
                         <a class="links-item" href="#">Amazon</a>
                         <a class="links-item" href="#">Apple</a>
                         <a class="links-item" href="#">Barnes & Noble</a>
                     </div>
+                    <div class="list-group d-lg-none text-center links">
+                        <a class="links-item" href="#">Amazon</a>
+                        <a class="links-item" href="#">Apple</a>
+                        <a class="links-item" href="#">Barnes & Noble</a>
+                    </div>
+
                 </div>
-                <div class="col-lg-3 text-center">
-                    <div id="quote">"There is no charm equal to tenderness of heart." <br>~ Jane Austen</div>
+                <div class="col-lg-4 text-center">
+                    <div id="quote"><text style="font-size: 42px;">W</text>riting the world the way I want it... full of
+                        Happily Ever Afters.</div>
                     <div>
-                        <img class="img-fluid w-75" src="images\Author.jpeg" alt="Author Image" id="author-image">
+                        <img class="img-fluid w-75" src="images/index-author.jpeg" alt="Author Image" id="author-image">
                     </div>
                 </div>
             </div>
             <hr>
             <div class="text-center col-lg-12" id="landing-paragraph">
-                <p><text style="font-size: 26px;">C</text>ayt Lawson’s debut into Historical Romance begins with Ann’s
+                <p><text style="font-size: 42px;">C</text>ayt Lawson’s debut into Historical Romance begins with Ann’s
                     Valley – the prequel to her upcoming <em>Stone Ranch Series</em>…</p>
                 <p>In Ann’s Valley, Regency meets Western as readers follow an English debutante’s journey from the
                     ballrooms of London to America’s wild frontier. She is on a mission to restore herself to the life
@@ -131,9 +141,15 @@
             </div>
         </footer>
     </div>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
 
 </body>
 
