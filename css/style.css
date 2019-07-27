@@ -38,6 +38,11 @@ header {
 
 #shell-content {
   background-color: #f5f1c0;
+  /*
+    background-image: url"/images/abstract-flower-patternedited3.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    */
   margin-top: 40px;
   margin-bottom: 40px;
   border: 5px double #654321;
@@ -139,6 +144,17 @@ h4 {
   color: #654321;
 }
 
+.blurb-image {
+  margin: 5%;
+  border: 5px solid #654321;
+}
+
+.blurb-text {
+  font-size: 18px;
+  color: #654321;
+  padding: 25px;
+}
+
 .brown-text {
   color: #654321;
 }
@@ -151,6 +167,16 @@ h4 {
   font-family: 'Montaga', serif;
   color: #654321;
   font-size: 20px;
+}
+
+.nav-link {
+  font-family: 'Berkshire Swash';
+  font-size: 18px;
+  color: #654321 !important;
+}
+
+.nav-link a:hover {
+  color: #7e8a4a !important;
 }
 
 .spaced-list-item {
@@ -175,8 +201,17 @@ h4 {
 
 footer {
   background-image: url(../images/header2.jpeg);
-  height: 100px;
+  height: 300px;
   border-top: 1px solid #654321;
+}
+
+.logo {
+  margin: 0px 0px 5px 0px;
+  width: 150px;
+}
+
+.fa-home {
+  color: #654321;
 }
 
 .big-letter {
@@ -197,6 +232,9 @@ footer {
   margin-top: 40px;
 }
 
+/*#navbarSupportedContent{
+    
+  }*/
 @-webkit-keyframes spin {
   0% {
     -webkit-transform: rotate(0deg);
@@ -207,7 +245,6 @@ footer {
             transform: rotate(360deg);
   }
 }
-
 @keyframes spin {
   0% {
     -webkit-transform: rotate(0deg);

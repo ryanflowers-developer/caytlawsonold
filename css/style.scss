@@ -42,6 +42,11 @@ header {
 
 #shell-content {
     background-color: $main-content;
+    /*
+    background-image: url"/images/abstract-flower-patternedited3.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    */
     margin-top: 40px;
     margin-bottom: 40px;
     border: 5px double $main-border;
@@ -149,6 +154,19 @@ h4 {
     
 }
 
+.blurb-image{
+    margin: 5%;
+    border: 5px solid $picture-border;
+}
+
+.blurb-text{
+
+    font-size: 18px;
+    color: $picture-border;
+    padding: 25px;
+   
+}
+
 .brown-text {
     color: $main-text;
 }
@@ -161,6 +179,17 @@ h4 {
     font-family: 'Montaga', serif;
     color: $landing-text-paragraph;
     font-size: 20px;
+}
+
+.nav-link{
+    font-family: 'Berkshire Swash';
+    font-size: 18px;
+    color: $picture-border !important;
+    a:hover{
+        color: $link-hover !important;
+    }
+    
+  
 }
 
 .spaced-list-item{
@@ -186,9 +215,18 @@ h4 {
 
 footer {
     background-image: url(../images/header2.jpeg);
-    height: 100px;
+    height: 300px;
     border-top: 1px solid $picture-border;
 
+}
+
+.logo{
+    margin: 0px 0px 5px 0px;
+    width: 150px
+}
+
+.fa-home{
+    color: $picture-border;
 }
 
 .big-letter{
@@ -206,6 +244,11 @@ footer {
     margin-top: 40px;
   }
   
+  
+  /*#navbarSupportedContent{
+    
+  }*/
+  
   @keyframes spin {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
@@ -220,5 +263,4 @@ footer {
     h1{
         font-size: 84px;
     }
-
   }
