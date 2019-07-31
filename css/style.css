@@ -38,11 +38,10 @@ header {
 
 #shell-content {
   background-color: #f5f1c0;
-  /*
-    background-image: url"/images/abstract-flower-patternedited3.jpg");
-    background-repeat: no-repeat;
-    background-size: auto;
-    */
+  background-position-y: 50px;
+  background-image: url("/images/test.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
   margin-top: 40px;
   margin-bottom: 40px;
   border: 5px double #654321;
@@ -169,6 +168,10 @@ h4 {
   font-size: 20px;
 }
 
+#faq-list {
+  padding-right: 25px;
+}
+
 .nav-link {
   font-family: 'Berkshire Swash';
   font-size: 18px;
@@ -230,6 +233,7 @@ footer {
           animation: spin 2s linear infinite;
   margin: auto;
   margin-top: 40px;
+  margin-bottom: 100px;
 }
 
 /*#navbarSupportedContent{
@@ -265,7 +269,7 @@ footer {
     font-size: 84px;
   }
   #main-content {
-    padding: 10px 5px 10px 5px;
+    padding: 10px 30px 10px 30px;
   }
 }
 /*# sourceMappingURL=style.css.map */
